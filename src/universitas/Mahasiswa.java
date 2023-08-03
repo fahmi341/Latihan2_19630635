@@ -1,5 +1,7 @@
 package universitas;
 
+import java.util.logging.Logger;
+
 public class Mahasiswa {
     private String npm;
     private String nama;
@@ -34,10 +36,15 @@ public class Mahasiswa {
     public String getProdi() {
         return prodi;
     }
+ 
     
+
+    public String getDetail(){
+        System.out.println("NPM : " + npm);
+        System.out.println("Nama : " + nama);
+        System.out.println("Prodi : " + prodi);
+        return null;
+    }
+
 }
 
-
-public String getDetail(){
-
-}
